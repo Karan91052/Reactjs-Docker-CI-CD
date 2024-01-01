@@ -68,3 +68,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Reactjs-Docker
+Reactjs Website
+
+docker container run command:
+**docker run -d -p 3000:3000 <Image-name>:latest**
+
+Docker image build:
+**docker image build -t <image-name>:latest .**
+
+List all images:
+**docker images**
+
+Remove an image:
+**docker rmi <image_name>:tag**
+
+List running containers:
+**docker ps**
+
+List all containers (including stopped ones):
+**docker ps -a**
+
+Stop a running container:
+**docker stop <container_id>**
+
+Start a stopped container:
+**docker start <container_id>**
+
+Remove a container:
+**docker rm <container_id>**
+
+Create a volume:
+**docker volume create <volume_name>**
+
+List all volumes:
+**docker volume ls**
+
+Remove a volume:
+**docker volume rm <volume_name>**
